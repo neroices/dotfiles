@@ -1,15 +1,17 @@
+# My default config ヾ(´▽`)ﾉ
+
 # Logo key. Use Mod1 for Alt.
+# Set super key as mod key
 set $mod Mod4
-# Home row direction keys, like vim
-set $left h
-set $down j
-set $up k
+
+# Hrd keys
+set $left j
+set $down k
+set $up i
 set $right l
-# Your preferred terminal emulator
+
+# Def variables
 set $term foot
-# Your preferred application launcher
-# Note: pass the final command to swaymsg so that the resulting window can be opened
-# on the original workspace that the command was run on.
 set $menu dmenu_path | wmenu | xargs swaymsg exec --
 
 ### Output configuration
