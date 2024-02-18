@@ -18,6 +18,7 @@ set $menu wofi -c ~/.config/wofi/config -I
 #
 # Default wallpaper (more resolutions are available in @datadir@/backgrounds/sway/)
 output * bg @datadir@/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output HDMI-A-1 mode 1920x1080@74.973hz
 
 ### Key bindings
 #
