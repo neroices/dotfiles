@@ -86,14 +86,8 @@ bindsym $mod+Shift+0 move container to workspace number 10
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
-#
-# Resizing containers:
-#
+# Resizing containers
 mode "resize" {
-    # left will shrink the containers width
-    # right will grow the containers width
-    # up will shrink the containers height
-    # down will grow the containers height
     bindsym $left resize shrink width 10px
     bindsym $down resize grow height 10px
     bindsym $up resize shrink height 10px
@@ -109,6 +103,7 @@ mode "resize" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+
 bindsym $mod+r mode "resize"
 
 #
