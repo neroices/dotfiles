@@ -25,6 +25,7 @@ bindsym $mod+Shift+f3 exec swaymsg exit
 bindsym $mod+n exec $fm
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
+bindsym $mod+backslash workspace back_and_forth
 
 floating_modifier $mod normal
 #
