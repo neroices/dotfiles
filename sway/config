@@ -106,6 +106,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Default font
+font pango:Lexend 12
+
 #
 # Status Bar:
 #
