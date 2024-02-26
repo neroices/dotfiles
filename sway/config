@@ -113,6 +113,9 @@ font pango:Lexend 12
 default_border pixel 5
 smart_borders on
 
+# Gaps
+gaps inner 21
+gaps outer 0
 
 #
 # Status Bar:
