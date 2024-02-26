@@ -109,8 +109,10 @@ bindsym $mod+r mode "resize"
 # Default font
 font pango:Lexend 12
 
-# Smart borders
+# Borders
+default_border pixel 5
 smart_borders on
+
 
 #
 # Status Bar:
