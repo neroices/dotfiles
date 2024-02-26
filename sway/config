@@ -109,6 +109,9 @@ bindsym $mod+r mode "resize"
 # Default font
 font pango:Lexend 12
 
+# Smart borders
+smart_borders on
+
 #
 # Status Bar:
 #
