@@ -26,6 +26,7 @@ bindsym $mod+n exec $fm
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 bindsym $mod+backslash workspace back_and_forth
+bindsym $mod+i floating toggle; resize set 1100 800; move position center
 
 floating_modifier $mod normal
 
