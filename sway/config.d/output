@@ -8,6 +8,10 @@ bindsym Mod1+Down exec --no-startup-id sh -c 'pactl list short sinks | awk "{pri
 bindsym Mod1+Up exec --no-startup-id sh -c 'pactl list short sinks | awk "{print \$1}" | xargs -I{} pactl set-sink-volume {} +5%'
 bindsym Mod1+m exec --no-startup-id sh -c 'pactl list short sinks | awk "{print \$1}" | xargs -I{} pactl set-sink-mute {} toggle'
 
+bindsym XF86AudioLowerVolume exec --no-startup-id sh -c 'pactl list short sinks | awk "{print \$1}" | xargs -I{} pactl set-sink-volume {} -5%'
+bindsym XF86AudioRaiseVolume exec --no-startup-id sh -c 'pactl list short sinks | awk "{print \$1}" | xargs -I{} pactl set-sink-volume {} +5%'
+bindsym XF86AudioMute exec --no-startup-id sh -c 'pactl list short sinks | awk "{print \$1}" | xargs -I{} pactl set-sink-mute {} toggle'
+
 # Sink switcher
 bindsym Mod1+Shift+Left exec pactl set-default-sink "alsa_output.usb-0600_dbE_GM210-00.analog-stereo"
 bindsym Mod1+Shift+Right exec pactl set-default-sink "alsa_output.pci-0000_09_00.6.analog-stereo"
