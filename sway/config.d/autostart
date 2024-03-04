@@ -6,7 +6,7 @@ bar {
 # Notifications
 exec mako
 
-# GTK3 Config
+# GTK3 config
 set $gnome-schema org.gnome.desktop.interface
 set $nemo org.cinnamon.desktop.default-applications.terminal
 
@@ -17,3 +17,6 @@ exec_always {
     gsettings set $gnome-schema cursor-theme 'Catppuccin-Mocha-Dark'
     gsettings set $nemo exec kitty
 }
+
+# Autotiling
+exec_always autotiling -w 1 3 5 7 9
