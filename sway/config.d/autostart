@@ -29,3 +29,6 @@ exec_always wlsunset -l 6.9 -L 107.6 -T 5300
 
 # Steam
 exec /usr/bin/steam-runtime %U
+
+# Telegram Desktop
+exec /usr/bin/telegram-desktop -startintray %u
