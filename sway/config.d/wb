@@ -1,0 +1,13 @@
+set $fg #a9b1d6
+set $bg #1a1b26
+set $acc1 #4d4f68
+set $acc2 #c0caf5
+set $acc3 #6cb6ff
+set $acc4 #ff5c8f
+
+client.focused          $fg $bg $acc2 $fg $acc2
+client.focused_inactive $acc1 $acc1 $fg $acc1 $acc1
+client.unfocused        $acc3 $acc3 $acc2 $acc3 $bg
+client.urgent           $acc4 $acc4 $fg $acc4 $acc4
+client.placeholder      $bg $acc2 $fg $bg $acc2
+client.background       $fg $fg $fg $fg $fg
