@@ -20,3 +20,9 @@ exec_always {
 
 # Autotiling
 exec_always autotiling -w 1 3 5 7 9
+
+# Gnome Keyring
+exec gnome-keyring-daemon --daemonize --start
+
+# Wlsunset
+exec_always wlsunset -l 6.9 -L 107.6 -T 5300
