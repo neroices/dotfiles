@@ -118,10 +118,6 @@ smart_borders on
 gaps inner 21
 gaps outer 0
 
-# Applications
-assign [class="Steam"]                       3
-assign [title="Steam"]			             3
-
 # Screenshot
 bindsym Print exec grim - | tee ~/Pictures/Screenshots/Screenshot-$(date +%Y-%m-%d-%H-%M-%S).png | wl-copy && notify-send "Screenshot-$(date +%Y-%m-%d-%H-%M-%S).png saved to ~/Pictures/Screenshots/"
 
