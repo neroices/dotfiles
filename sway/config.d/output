@@ -1,7 +1,7 @@
 output HDMI-A-1 mode 1920x1080@74.973hz
 
 # Wallpaper
-output * bg @datadir@/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg $HOME/Path/to/wallpaper.png fill
 
 # Volume Control (Pipewire)
 bindsym Mod1+Down exec --no-startup-id sh -c 'pactl list short sinks | awk "{print \$1}" | xargs -I{} pactl set-sink-volume {} -5%'
