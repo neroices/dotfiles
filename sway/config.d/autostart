@@ -2,3 +2,6 @@
 bar {
    swaybar_command waybar
 }
+
+# Notifications
+exec mako
