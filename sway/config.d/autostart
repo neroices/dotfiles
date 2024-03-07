@@ -32,3 +32,6 @@ exec /usr/bin/steam-runtime %U
 
 # Telegram Desktop
 exec /usr/bin/telegram-desktop -startintray %u
+
+# Aria2 RPC
+exec /usr/bin/aria2c --conf-path ${HOME}/.aria2/aria2.conf
