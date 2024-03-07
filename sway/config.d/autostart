@@ -35,3 +35,6 @@ exec /usr/bin/telegram-desktop -startintray %u
 
 # Aria2 RPC
 exec /usr/bin/aria2c --conf-path ${HOME}/.aria2/aria2.conf
+
+# Polkit
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
