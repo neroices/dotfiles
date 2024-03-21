@@ -115,7 +115,7 @@ default_border pixel 5
 smart_borders on
 
 # Gaps
-gaps inner 21
+gaps inner 11
 gaps outer 0
 
 # Screenshot
