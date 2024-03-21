@@ -8,7 +8,7 @@ for_window [app_id="eom"] floating enable
 for_window [class="scrcpy"] floating enable, resize set width 20 ppt height 81 ppt
 for_window [app_id="qt5ct"] floating enable, resize set width 20 ppt height 80 ppt
 for_window [app_id="qt6ct"] floating enable, resize set width 20 ppt height 80 ppt
-for_window [app_id="kitty"] floating enable, resize set width 65 ppt height 85 ppt
+# for_window [app_id="kitty"] floating enable, resize set width 65 ppt height 85 ppt
 
 # Floating windows
 for_window [window_role="pop-up"] floating enable
