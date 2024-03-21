@@ -1,0 +1,16 @@
+#!/bin/bash
+
+dest="$HOME/.config/"
+folders=("dunst" "gtk-3.0" "sway" "waybar" "wofi")
+
+for folder in "${folders[@]}"
+do
+    if [ -d "$dest$folder" ]; then
+        mv "$dest$folder" "$dest$folder.bak"
+        cp -r "$folder" "$dest"
+        echo "Install success."
+    else
+        cp -r "$folder" "$dest"
+        echo "Install success."
+    fi
+done
