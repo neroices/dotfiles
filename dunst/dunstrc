@@ -1,0 +1,17 @@
+[global]
+format = "<span foreground='#f2cdcd'><big> </big></span> <b>%s</b>\n%b"
+font = "Lexend 10"
+frame_color = "#fab387"
+separator_color = frame
+icon_corner_radius = 1
+progress_bar_corner_radius = 1
+indicate_hidden = yes
+shrink = false
+padding = 10
+horizontal_padding = 25
+frame_width = 2
+separator_color = frame
+sort = yes
+corner_radius = 11
+background = "#313244"
+foreground = "#bac2de"
