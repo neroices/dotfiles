@@ -124,5 +124,4 @@ bindsym Print exec grim - | tee ~/Pictures/Screenshots/Screenshot-$(date +%Y-%m-
 # Power
 bindsym --locked XF86PowerOff exec /bin/false
 
-include @sysconfdir@/sway/config.d/*
 include $HOME/.config/sway/config.d/*
