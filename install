@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dest="$HOME/.config/"
-folders=("dunst" "gtk-3.0" "sway" "waybar" "wofi")
+folders=("dunst" "gtk-3.0" "sway" "waybar" "wofi" "kitty")
 
 for folder in "${folders[@]}"
 do
